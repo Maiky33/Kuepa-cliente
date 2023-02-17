@@ -1,0 +1,110 @@
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.Title{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96px;
+    background-color: #947085;
+    color: aliceblue;
+    font-size: 50px;
+    
+}
+.App{
+    padding: 40px;
+    background-color: #ecded7;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
+
+.AppVideo{ 
+    width: 700px;
+    height: 500px;
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+.Chat{  
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ChatBody{  
+    width: 300px;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 400px;
+    overflow-y: scroll;
+    background-color: #c29890;
+    border-radius: 15px;
+    padding: 30px;
+}
+.InputsForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.NikNameInput{  
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+.MessageInput{
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    outline: none;
+}
+
+.ContainerButtonInput{  
+    display: flex;
+    gap: 20px;
+}
+
+.ButtonName{    
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+.ContainerMessages{ 
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.NewMessage{    
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+
+.MessageYOU{  
+    width: 100px;
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    align-items: center;
+    width: auto;  
+    background-color: #947085;
+    color: beige;
+    border-radius: 15px;
+}
+
+.Messageother{  
+    display: flex;
+    justify-content: start;
+    padding: 20px;
+    align-items: center;
+    width: auto;
+    background-color: #a5688c;
+    border-radius: 15px;
+}
